@@ -10,10 +10,10 @@ class ReviewsController < ApplicationController
     end
   end
 
+
   private
 
   def review_params
     params.require(:review).permit(:content)
   end
-end
 end
